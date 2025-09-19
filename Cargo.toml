@@ -11,6 +11,9 @@ categories = ["concurrency"]
 edition = "2021"
 rust-version = "1.64"
 
+[lib]
+crate-type = ["lib", "dylib"]
+
 [package.metadata.docs.rs]
 features = ["arc_lock", "serde", "deadlock_detection"]
 rustdoc-args = ["--generate-link-to-definition"]

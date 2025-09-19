@@ -10,6 +10,9 @@ categories = ["concurrency"]
 edition = "2021"
 rust-version = "1.64.0"
 
+[lib]
+crate-type = ["lib", "dylib"]
+
 [package.metadata.docs.rs]
 rustdoc-args = ["--generate-link-to-definition"]
 
